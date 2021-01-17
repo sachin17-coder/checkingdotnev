@@ -1,0 +1,57 @@
+body{
+  
+    /* background-color: blue; */
+    color: white;
+}
+input[type=text]{
+    text-align: center;}
+input[type=email]{
+    text-align: center;
+    margin: auto;
+    color: red;
+}
+input[type=password]{
+    text-align: center;}
+input[type=number]{
+    text-align: center;}
+
+button{
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-direction: column;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+form{
+    width: 70%;
+    height: auto;
+    border-radius: 1rem;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(blue, green);
+
+}
+input{
+    margin-top: 1rem;
+    outline: none;
+}
+
+.inputType{
+    width: 30rem;
+    outline: none;
+    padding: 0.3rem;
+    border-radius: 1rem;
+
+}
